@@ -1,0 +1,82 @@
+<div id="masthead">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>{{title}}
+            <p class="lead"></p>
+          </h1>
+        </div>
+        <div class="col-md-5">
+          <div class="well well-lg"> 
+            <div class="row">
+              <div class="col-sm-12">
+                
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div><!-- /cont -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="top-spacer"> </div>
+        </div>
+      </div> 
+    </div><!-- /cont -->
+    
+  </div>
+  
+  
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-12"> 
+        
+        <div class="panel">
+          <div class="panel-body">
+            <div class = "col-lg-2"></div>
+            <div class = "col-lg-8">
+              <div class="row">
+                <form (ngSubmit)="AddItem()"  >
+                  <div class="col-md-12">
+                    <label for="Title" class="form-label">Title</label>
+                    <input type="text" name="title" [(ngModel)] = "bookItem.title">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="Author" class="form-label">Author</label>
+                    <input type="text" name="author" [(ngModel)] = "bookItem.author">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="Genre" class="form-label">Genre</label>
+                    <input type="text" name="genre" [(ngModel)] = "bookItem.genre">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="Image" class="form-label">Image</label>
+                    <input type="text" name="image" [(ngModel)] = "bookItem.image">
+                  </div>
+                  <div class="col-md-12" >
+                    <br>
+                    <br>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Add</button>
+                  </div>
+                  
+                </form>
+  
+              </div>
+              <div class = "col-lg-2"></div>
+           </div>
+          
+            
+          </div>
+        </div>
+                                                                                         
+                                                      
+                                                        
+    </div>
+  </div>
+  </div>
